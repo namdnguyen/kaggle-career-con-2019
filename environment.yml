@@ -1,0 +1,36 @@
+name: kaggle_career_con_2019
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - invoke
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - pandas-profiling
+  - path.py
+  - python=3.6
+  - pytest
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - lime
+  - shap
+  - dask
+  - pip:
+      - black
+      - h2o
+      - kaggle
+      - keras
+      - lightgbm
+      - missingno
+      - nbdime
+      - plotly
+      - pylint
+      - flake8
+      - pyspark
+      - tensorflow
+      - mlflow
